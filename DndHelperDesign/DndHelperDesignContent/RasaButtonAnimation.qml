@@ -66,6 +66,7 @@ Item {
            color: "transparent"
            border.color: "#FFD700"
            border.width: btn.toggled ? 3 : 0
+           radius: borderRadius
 
            // Анимация изменения рамки
            Behavior on border.width {

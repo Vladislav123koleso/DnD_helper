@@ -18,5 +18,15 @@ Window {
         id: mainScreen
     }
 
+
+
+
+
+
+
+
+
+
+
 }
 

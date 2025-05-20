@@ -60,43 +60,16 @@ Rectangle {
         model: ListModel {
             ListElement {
                 name: "Воин"
-                normalImage: "images/Minerva.jpg"
-                hoverImage: "images/Minerva2.jpg"
-                hoverText: "Человек - ебейшая раса"
+                normalImage: "images/class/.jpg"
+                hoverImage: "images/class/2.jpg"
+                hoverText: ""
             }
             ListElement {
                 name: "Маг"
-                normalImage: "images/elf.jpg"
-                hoverImage: "images/elf2.jpg"
-                hoverText: "Секси Эльф"
+                normalImage: "images/class/.jpg"
+                hoverImage: "images/class/2.jpg"
+                hoverText: ""
             }
-            // ListElement {
-            //     name: "Полуэльф"
-            // }
-            // ListElement {
-            //     name: "Орк"
-            // }
-            // ListElement {
-            //     name: "Полуорк"
-            // }
-            // ListElement {
-            //     name: "Тифлинг"
-            // }
-            // ListElement {
-            //     name: "Драконорожденный"
-            // }
-            // ListElement {
-            //     name: "Драконорожденный"
-            // }
-            // ListElement {
-            //     name: "Red"
-            //     colorCode: "red"
-            // }
-
-            // ListElement {
-            //     name: "Blue"
-            //     colorCode: "blue"
-            // }
         }
         delegate: Item {
             x: 5
